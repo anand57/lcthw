@@ -13,6 +13,8 @@ ex5: ex5.c
 ex6: ex6.c
 	$(CC) $(CFLAGS) -o ex6 ex6.c
 
+ex8:ex8.c
+	$(CC) $(CFLAGS) -o ex8 ex8.c
 
 clean:
-	rm -rf *.dSYM & rm ex{1..6}
+	rm -rf *.dSYM & rm ex{1..8}
