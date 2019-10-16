@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[]){
-  int distance = 100;
+int main(int argc, char* argv[]){
+  int age = 10;
 
-  printf("You are %d miles away young padawan!\n",distance);
+  printf("Hi my name is %d", age);
+  return 0;
 }
